@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Our Services</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: "montserrat",sans-serif;
+                box-sizing: border-box;
+            }
+            .service-section{
+                background: url(photo/service1.jpeg);
+                background-size: cover;
+                padding: 60px 0;
+                height: 100vh;
+            }
+            .inner-width{
+                width: 100%;
+                max-width: 1200px;
+                margin: auto;
+                padding: 0 20px;
+                overflow: ;
+            }
+            .section-title{
+                text-align: center;
+                color: #ddd;
+                text-transform: uppercase;
+                font-size: 30px;
+
+            }
+            .border{
+                width: 100px;
+                height: 2px;
+                background: #82ccdd;
+                margin: 20px auto;
+                margin-right: 20px;
+                margin-left: 20px;
+                min-width: fit-content;
+            }
+            .service-container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .service-box {
+    max-width: calc(15% - 40px); /* 25% to fit four items in a row, subtracting padding */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left:0px;
+}
+            .service-icons{
+                display: inline-block;
+                width: 70px;
+                height: 70px;   
+                border: 3px solid #82ccdd;
+                color: #82ccdd;
+                transform: rotate(45deg);
+                margin-bottom: 40px;
+                margin-top: 20px;
+                transition: 0.3s linear;
+            }
+            .service-icons i{
+                line-height: 70px;
+                transform: rotate(-45deg);
+                font-size: 26px;
+
+            }
+            .service-box:hover .service-icons {
+    background: #82ccdd;
+    color: #ddd;
+}
+
+            .section-title{
+                font-size: 18px;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+            .service-box {
+    max-width: calc(25% - 40px); /* 25% to fit four items in a row, subtracting padding */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+    .service-box {
+        max-width: calc(50% - 20px); /* Two items in a row for smaller screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service-box {
+        max-width: calc(100% - 20px); /* Single item per row for even smaller screens */
+    }
+}
+.footer{
+                padding-top: 100px;
+                width: 200%;
+            
+                padding: 1px 15%;
+                background: hsl(69, 59%, 22%);
+                color: #efefef;
+                display: flex;
+                justify-content: space-around; /* Adjust as needed */
+                align-items: flex-start; /* Adjust as needed */
+            }
+            .footer div{
+                text-align: center;
+            }
+            .col-2{
+                flex-grow: 2;
+            }
+            .footer div h3{
+                font-weight: 300;
+                margin-bottom: 30px;
+                letter-spacing: 1px;
+            }
+            .col-1 a{
+                display: block;
+                text-decoration: none;
+                color: #efefef;
+                margin-bottom: 10px;
+            }
+            form input{
+                width: 400px;
+                height: 45px;
+                border-radius: 4px;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 40px;
+                outline: none;
+                border: none;
+            }
+            form button{
+                background: transparent;
+                border: 2px solid #fff;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 30px;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .social-icons{
+                margin-top: 30px;
+            }
+            .social-icons i{
+                font-size: 22px;
+                margin: 10px;
+                cursor: pointer;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="service-section">
+            <div class="inner-width">
+                 <h1 class="section-title">Our Services</h1>
+                 <div class="border">
+                    <div class="service-container">
+                        <div class="service-box">
+                            <div class="service-icons">
+                                <i class="fa fa-paint-brush"></i>
+                            </div>
+                            <div class="service-title">We design</div>
+                            <div class="service-desc">
+                                power vs power the lesser one submit.
+                            </div>
+                        </div>
+                        <div class="service-box">
+                            <div class="service-icons">
+                                <i class="fa fa-object-ungroup"></i>
+                            </div>
+                            <div class="service-title">We design</div>
+                            <div class="service-desc">
+                                power vs power the lesser one submit.
+                            </div>
+                        </div>
+
+                        <div class="service-box">
+                            <div class="service-icons">
+                                <i class="fa fa-database"></i>
+                            </div>
+                            <div class="service-title">We design</div>
+                            <div class="service-desc">
+                                power vs power the lesser one submit.
+                            </div>
+                        </div>
+
+                        <div class="service-box">
+                            <div class="service-icons">
+                                <i class="fa fa-code"></i>
+                            </div>
+                            <div class="service-title">We development</div>
+                            <div class="service-desc">
+                                power vs power the lesser one submit.
+                            </div>
+                        </div>
+                        <div class="service-box">
+                            <div class="service-icons">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="service-title">We development</div>
+                            <div class="service-desc">
+                                power vs power the lesser one submit.
+                            </div>
+                        </div>
+                        <div class="service-box">
+                            <div class="service-icons">
+                                <i class="fa fa-artificialintelligence"></i>
+                            </div>
+                            <div class="service-title">We development</div>
+                            <div class="service-desc">
+                                power vs power the lesser one submit.
+                            </div>
+                        </div>
+                        <div class="service-box">
+                            <div class="service-icons">
+                                <i class="fa fa-code"></i>
+                            </div>
+                            <div class="service-title">We development</div>
+                            <div class="service-desc">
+                                power vs power the lesser one submit.
+                            </div>
+                        </div>
+                        <div class="service-box">
+                            <div class="service-icons">
+                                <i class="fa fa-code"></i>
+                            </div>
+                            <div class="service-title">We development</div>
+                            <div class="service-desc">
+                                power vs power the lesser one submit.
+                            </div>
+                        </div>
+
+                       
+                       
+                        
+                        
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <div class="footer ">
+            <div class="col-1">
+                <h3>useful links</h3>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Service</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="col-2">
+                <h3>News latter</h3>
+                <form>
+                    <input type="email" placeholder="your email address" required>
+                    <br>
+                    <button type="submit">send</button>
+                </form>
+            </div>
+            <div class="col-3">
+                <h3>Contact</h3>
+                <p>1082,Tora Street, OPO 3 <br>Oshikango, Helao Nafidi, Town</p>
+                <div class="social-icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
